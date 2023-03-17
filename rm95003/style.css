@@ -1,20 +1,46 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 
 .container{
     width: 100rem;
     height: 50px;
-    margin: 0.5rem;
-    padding: 0.2rem;
+    padding: 0 10px;
+   
 }
 
+.home{
+
+}
+
+
+.casa{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+   background-color: aqua;
+}
 
 .menu{
-    display: flex;
-    
-    background-color: blanchedalmond;
+    margin: 10px;
 }
+
+ .menu a{
+    margin: 10px;
+    text-decoration: none;
+}
+
+.menu,ul{
+    display: flex; 
+    list-style: none;
+}
+
+.corpo{
+    margin: 30px;
+    padding: 20px;
+}
+
+
