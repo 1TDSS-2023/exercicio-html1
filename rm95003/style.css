@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+
+.container{
+    width: 100rem;
+    height: 50px;
+    margin: 0.5rem;
+    padding: 0.2rem;
+}
+
+
+.menu{
+    display: flex;
+    
+    background-color: blanchedalmond;
+}
