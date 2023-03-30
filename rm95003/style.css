@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100rem;
+    height: 50px;
+    padding: 0px;
+   
+}
+
+.home{
+
+}
+
+
+.casa{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    background-color: aqua;
+    padding: 20px;
+}
+
+.menu{
+    margin: 0.5rem;
+    margin-left: 40rem;
+    padding-left: 20px;
+}
+
+ .menu a{
+    margin-left: 5rem;
+    text-decoration: none;
+}
+
+.menu,ul{
+    display: flex; 
+    list-style: none;
+    
+}
+
+.corpo{
+    margin: 30px;
+    padding: 20px;
+}
+
+
