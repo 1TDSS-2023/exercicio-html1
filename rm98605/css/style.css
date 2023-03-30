@@ -9,6 +9,41 @@
     box-sizing: border-box;
 }
 
+#home{
+    float: left;
+    width: 288px;
+    background-color: #d9d9d9;
+    text-align: center;
+    height: 200px;
+    padding-top: 80px;
+    font-size: 40px;
+}
+
+.menu{
+    float: right;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline;
+    background-color: #d9d9d9;
+    margin-top: 100px;
+    width: 280px;
+}
+
+
+
+
+
+.conteudo{
+    clear: both;
+}
+
+
+
 
 
 
