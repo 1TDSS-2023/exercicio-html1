@@ -5,3 +5,26 @@
     box-sizing: border-box;
 }
 
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cabecalho h1{
+    flex-grow: 3;
+    background-color: #d9d9d9;
+}
+
+.cabecalho nav{
+    flex-grow: 1;
+    background-color: #eda7a7;
+}
+
+.cabecalho nav ul{
+    list-style: none;
+}
+
+/*Exercício:
+Recrie o alinhamento do cabeçalho utilizando o conteúdo flexbox até o momento */
