@@ -24,9 +24,10 @@
     list-style: none;
 }
 .menu ul li{
+    float: left;
     display:inline;
     background-color: #d9d9d9;
-    padding: 30% 80px 183px 80px;  
+    padding: 15% 67px 90px 90px;  
 }
 
 
