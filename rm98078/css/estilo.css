@@ -51,7 +51,7 @@
 
 
 .cabecalho {
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: space-between;
     display: flex;
 }
