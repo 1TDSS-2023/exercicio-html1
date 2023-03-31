@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    /*flex-direction: row-reverse; 
+    flex-direction: column-reverse;*/
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cabecalho h1{
+    flex-grow: 1;
+    background-color: #b9b9b9;
+}
+
+.cabecalho nav{
+    flex-grow: 1;
+    background-color: #b9b9;
+}
+
+.cabecalho nav ul{
+    list-style: none;
+}
+
+/*Ex:
+Recrie o alinhamento do cabecalho utilizando conteudo do flex-box
