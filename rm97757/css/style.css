@@ -14,8 +14,8 @@
     background-color: #d9d9d9;
     text-align: center;
     height: 200px;
-    padding: 80px 0 0 0;
-    font-size: 40px;
+    padding: 75px 0 0 0;
+    font-size: 50px;
 }
 .menu{
     float: right;
@@ -24,13 +24,23 @@
     list-style: none;
 }
 .menu ul li{
-    display:inline;
-    background-color: #d9d9d9;
-    padding: 15% 100px 100px 100px;  
+    display:inline-block;
+    padding:0 10px;  
 }
 
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    background-color: #d9d9d9;
+    height: 200px;
+    width: 200px;
+    padding: 75px 0 0 0;
 
-
+}
 .conteudo{
     clear: both;
 }
