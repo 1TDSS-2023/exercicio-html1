@@ -30,14 +30,24 @@
 }
 
 .menu ul li{
-    display: inline;
+    display: inline-block;
+    padding: 50px;
     background-color: #d9d9d9;
-    padding: 15% 100px 100px 100px;
-    
+    text-align: center;
 }
 
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: #d9d9d9;
+    height: 200px;
+    width: 200px;
+    
 
-
+}
 
 
 .conteudo{
