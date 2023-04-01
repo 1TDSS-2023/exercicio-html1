@@ -1,0 +1,49 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#home{
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.menu{
+    float: right;
+}
+
+.menu ul{
+    list-style:none;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 0 10px;
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
+    text-align: center;
+    background-color: #d9d9d9;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    color: #000;
+    font-style: bold;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 80px 0 0 0;
+
+}  
+    
+.conteudo{
+    clear: both;
+}
