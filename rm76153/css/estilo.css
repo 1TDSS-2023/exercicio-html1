@@ -9,6 +9,7 @@
   width: 100%;
   max-width: 1440px;
   height: 1024px;
+  font-family: "Trebuchet MS", Arial, sans-serif;
 }
 
 .cabecalho {
@@ -23,14 +24,38 @@
   text-align: center;
   width: 280px;
   height: 200px;
-  font-family: "Trebuchet MS", Arial, sans-serif;
   font-style: normal;
   font-size: 3.125em;
   padding: 5% 0;
+  cursor: pointer;
 }
 
 .cabecalho nav {
-  background-color: #d9d9d9;
+  /* background-color: #d9d9d9; */
 }
 
+.cabecalho nav ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
 
+.cabecalho nav ul li {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cabecalho nav ul li a {
+  text-decoration: none;
+  background-color: crimson;
+  text-align: center;
+  display: inline-block;
+  width: 280px;
+  height: 200px;
+  color: #000000;
+  padding: 25% 0;
+  font-weight: 700;
+  font-size: 2.5em;
+  margin: 0 5%;
+}
