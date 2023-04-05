@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+#home {
+  float: left;
+  width: 280px;
+  background-color: #d9d9d9;
+  text-align: center;
+  height: 200px;
+  padding: 80px 0 0 0;
+  font-size: 50px;
+}
+
+.menu {
+  float: right;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline;
+  background-color: #d9d9d9;
+}
+
+.conteudo {
+  clear: both;
+}
