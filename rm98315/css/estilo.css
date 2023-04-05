@@ -1,6 +1,7 @@
 /*
-    reset basico
+    Reset básico!
 */
+
 
 *{
     margin: 0;
@@ -9,32 +10,29 @@
     box-sizing: border-box;
 }
 
-#home{
-    float: left;
-    width: 280px;
+/* BASE PARA O FLEX */
+.container{
+    width: 100%;
+    max-width: 1440px;
+    height: 1024px;
+    font-size: 16px;
+}
+/* BASE PARA O FLEX */
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cabecalho h1{
     background-color: #d9d9d9;
     text-align: center;
+    width: 280px;
     height: 200px;
-    /*padding: 90px;*/
-    /*padding-top: 80px;*/
-    padding: 80px 0 0 0;
-    font-size: 40px;
-}
-
-.menu{
-    float: right;
-}
-
-.menu ul{
-    list-style:none;
-}
-
-.menu ul li{
-    display: inline;
-    background-color: #d9d9d9;
-    padding: 100px 100px 100px 100px;
-}
-
-.conteudo{
-    clear: both;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-style: normal;
+    font-size: 3.125em;
+    padding: 5% 0;   
 }
