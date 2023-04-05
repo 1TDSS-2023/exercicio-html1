@@ -9,6 +9,7 @@
     width: 100%;
     max-width: 1440px;
     height: 1024px;
+    font-size: 16px;
 }
 
 .cabecalho{
@@ -19,5 +20,16 @@
 }
 
 .cabecalho h1{
-    
+    background-color: #d9d9d9;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-style: normal;
+    font-size: 3.125em;
+    padding: 5% 0;
+}
+
+.cabecalho nav{
+    background-color: #d9d9d9;
 }
