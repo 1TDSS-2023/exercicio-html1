@@ -5,42 +5,19 @@
     box-sizing: border-box;
 }
 
-#home{
-    float: left;
-    width: 280px;
-    background-color: #d9d9d9;
-    text-align: center;
-    height: 200px;
-    padding: 80px 0 0 0;
-    font-size: 50px;
+.container{
+    width: 100%;
+    max-width: 1440px;
+    height: 1024px;
 }
 
-.menu{
-    float: right;
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.menu ul{
-    list-style: none;
-}
-
-.menu ul li{
-    display: inline-block;
-    padding: 0 10px;
-}
-
-.menu ul li a{
-    text-decoration: none;
-    text-align: center;
-    font-weight: 700;
-    font-size: 40px;
-    color: #000000;
-    background-color: #d9d9d9;
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-    padding: 80px 0 0 0;
-}
-
-.conteudo{
-    clear: both;
+.cabecalho h1{
+    
 }
