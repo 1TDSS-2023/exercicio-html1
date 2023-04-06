@@ -67,4 +67,46 @@
     margin: 0 2%;
 }
 
+/*CABECALHO*/
+
+/*CONTEUDO*/
+    .conteudo{
+        background: rgb(27, 27, 5); 
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 50%;
+        color: #fff;
+    }
+
+    .conteudo div{
+        margin: 10% 2% 0 2%;
+        padding: 1%;
+        box-shadow: 5px 5px 5px #d9d9d9;
+        overflow: hidden;
+    }
+
+    .card-1{
+        width: 100%;
+        background-image: url('../img/games.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .card-2{
+        width: 100%;
+        background-image: url('../img/mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .card-3{
+        width: 100%;
+        background-image: url('../img/tech.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+/*CAONTEUDO*/
+
+
 
