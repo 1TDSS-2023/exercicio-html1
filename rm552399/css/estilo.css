@@ -1,52 +1,66 @@
-
 *{
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    box-sizing: border-box;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
-#home{
-    float: left;
-    width: 280px;
-    background-color: #d9d9d9;
-    text-align: center;
-    height: 200px;
-    padding: 80px 0 0 0;
-    font-size: 50px;
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #000000;
 }
 
-.menu{
-    float: right;
+.cabecalho nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 100%;
 }
 
-.menu ul{
-    list-style:none;
+.cabecalho img{
+    width: 30%;
+    max-width: 30%;
+    display: block;
 }
 
-.menu ul li{
-    display: inline-block;
-    padding: 0 10px;
-    
-}
-
-.menu ul li a{
+.cabecalho a{
     text-decoration: none;
-    text-align: center;
-    color: #000000;
-    display: inline-block;
-    background-color: #d9d9d9;
-    height: 200px;
-    width: 200px;
-    font-size: 40px;
-    font-style: bold;
+    font-size: 4em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
-    padding: 80px 0 0 0;
-   
-    
+    color: #fff;
+    padding: 20% 0;
+    text-align: center;
 }
 
+.cabecalho a:hover{
+    background-color: #fff;
+    color: #000000;
+}
 
-.conteudo{
-    clear: both;
+.conteudo img{
+    max-width: 100%;
+    display: block;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin:0 auto;
+}
+
+.conteudo > div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+}
+
+.tit-sec{
+    text-align: center;
+    margin: 2% 0;
+    font-size: 2em;
 }
